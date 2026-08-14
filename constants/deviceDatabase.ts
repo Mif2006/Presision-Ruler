@@ -89,7 +89,7 @@ export const deviceCatalog: DeviceSpec[] = [
   createDevice('Samsung', 'Galaxy S22 Ultra', ['SM-S908B', 'SM-S908U', 'SM-S908U1'], 500, 1440, 3088, 500),
   createDevice('Samsung', 'Galaxy S21 Ultra', ['SM-G998B', 'SM-G998U', 'SM-G998U1'], 515, 1440, 3200, 515),
   
-  // Galaxy A Series (Massive global market share)
+  // Galaxy A Series
   createDevice('Samsung', 'Galaxy A55', ['SM-A556B', 'SM-A556E', 'SM-A556U'], 390, 1080, 2340, 390),
   createDevice('Samsung', 'Galaxy A54', ['SM-A546B', 'SM-A546E', 'SM-A546U'], 403, 1080, 2340, 403),
   createDevice('Samsung', 'Galaxy A35', ['SM-A356B', 'SM-A356E', 'SM-A356U'], 390, 1080, 2340, 390),
@@ -127,8 +127,17 @@ export const deviceCatalog: DeviceSpec[] = [
   // --- HONOR (Android) ---
   createDevice('Honor', 'Magic6 Pro', ['BVL-AN16', 'BVL-N49'], 453, 1280, 2800, 453),
   createDevice('Honor', 'Magic5 Pro', ['PGT-AN10', 'PGT-N19'], 461, 1312, 2848, 461),
+  createDevice('Honor', 'Honor 400 Pro', ['DNP-AN00', 'DNP-NX9'], 460, 1280, 2800, 460),
+  createDevice('Honor', 'Honor 300 Pro', ['BKM-AN00', 'BKM-AN10'], 437, 1224, 2700, 437),
   createDevice('Honor', 'Honor 200 Pro', ['ELP-AN00', 'ELP-NX9'], 437, 1224, 2700, 437),
   createDevice('Honor', 'Honor 90', ['REA-AN00', 'REA-NX9'], 435, 1200, 2664, 435),
+  createDevice('Honor', 'Honor X7c', ['MRI-NX1', 'MRI-LX1'], 261, 720, 1610, 261),
+
+  // --- INFINIX (Android) ---
+  createDevice('Infinix', 'GT 20 Pro', ['X6871'], 393, 1080, 2436, 393),
+  createDevice('Infinix', 'Zero 40 5G', ['X6872'], 393, 1080, 2436, 393),
+  createDevice('Infinix', 'Note 40 Pro+', ['X6851B'], 393, 1080, 2436, 393),
+  createDevice('Infinix', 'Hot 50 Pro+', ['X6880'], 393, 1080, 2436, 393),
 
   // --- VIVO & iQOO (Android) ---
   createDevice('Vivo', 'X100 Pro', ['V2309A', 'V2324A'], 453, 1260, 2800, 453),
@@ -157,7 +166,7 @@ export const deviceCatalog: DeviceSpec[] = [
   createDevice('Motorola', 'Edge 40 Pro', ['XT2301-4'], 394, 1080, 2400, 394),
   createDevice('Motorola', 'Moto G84', ['XT2347-1', 'XT2347-2'], 402, 1080, 2400, 402),
 
-  // --- SONY (Android - Note: High PPI) ---
+  // --- SONY (Android) ---
   createDevice('Sony', 'Xperia 1 V', ['XQ-DQ54', 'XQ-DQ62', 'XQ-DQ72'], 643, 1644, 3840, 643),
   createDevice('Sony', 'Xperia 5 V', ['XQ-DE54', 'XQ-DE72'], 449, 1080, 2520, 449),
 ];
